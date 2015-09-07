@@ -2,17 +2,17 @@
 
 # MONITORED RESOURCE
 # The IP Address that shall be monitored
-target_ip=192.168.36.188 #192.156.137.238
+target_ip=192.168.1.1
 # Default HTTP port
 port=80
 # Timeout in seconds after than the resurce will be considered offline
-timeout=3
+timeout=30
 
 # TELEGRAM GROUP CHAT
 # The chat_id
-chat_id=8815985
+chat_id="Your chat ID"
 # Bot name
-botname="IEAbot"
+botname="ProbegramBOT"
 # The notification message
 msg="The site is offline!"
 
