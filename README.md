@@ -29,7 +29,8 @@ In BotFather's chat type:
 * `/start`
 * then `/newbot`
 * then type the dysplay name of your BOT
-* then type the **username** of your BOT.<br />Must to finish with "BOT" (case insensitive) and must have no spaces
+* then type the **username** of your BOT.<br />Must to finish with "BOT" (case insensitive) and must have no spaces.
+
 You're done, the BOT is created.
 
 ##### Notify a group of users
@@ -58,8 +59,20 @@ crontab -e
 ```
 Then edit with vim or nano and add the following line
 ```Bash
+# Crontab structure
+#
+#  * * * * * command to be executed
+#  - - - - -
+#  | | | | |
+#  | | | | ----- Day of week (0 - 7) (Sunday=0 or 7)
+#  | | | ------- Month (1 - 12)
+#  | | --------- Day of month (1 - 31)
+#  | ----------- Hour (0 - 23)
+#  ------------- Minute (0 - 59)
 
+*/5 * * * * /home/Probegram/Probegram.sh >> /home/Probegram/offline_status.log 2>&1
 ```
+The cron above will run every 5 minutes and save the output to a log file if something goes wrong.
 
 
 
