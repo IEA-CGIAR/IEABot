@@ -29,7 +29,7 @@ In BotFather's chat type:
 * `/start`
 * then `/newbot`
 * then type the dysplay name of your BOT
-* then type the **username** of your BOT. Must to finish with "BOT" (case insensitive) and must have no spaces
+* then type the **username** of your BOT.<br />Must to finish with "BOT" (case insensitive) and must have no spaces
 You're done, the BOT is created.
 
 ##### Notify a group of users
