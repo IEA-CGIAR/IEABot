@@ -3,7 +3,7 @@
 # MONITORED RESOURCE
 # The IP Address that shall be monitored
 target_ip=192.168.1.1
-# Default HTTP port
+# Default HTTP port, use 443 for HTTPS
 port=80
 # Timeout in seconds after than the resurce will be considered offline
 timeout=30
