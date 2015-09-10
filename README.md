@@ -1,6 +1,6 @@
 # Probegram
 This is a simple bash script that checks an HTTP URL and send you a notify if the resource is not reachable.<br />
-Note that you need `telegram-cli` and `netcat` installed on your machine.
+Note that you need `telegram-cli` installed on your machine.
 
 ====
 
@@ -12,7 +12,7 @@ First of all you need to install dependancies:
 ```bash
  sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make  
 ```
-* **Netcat**<br />Ubuntu/Debian systems:
+* **Netcat**<br />Ubuntu/Debian systems (not really needed because installed by default):
 ```bash
 sudo apt-get install netcat
 ```
