@@ -12,7 +12,7 @@ timeout=30
 # The chat_id
 chat_id="Your chat ID"
 # Bot name
-botname="ProbegramBOT"
+botname="IEABot"
 # The notification message
 msg="The site is offline!"
 
