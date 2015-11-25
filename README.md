@@ -1,5 +1,5 @@
-# Probegram
-This is a simple bash script that checks an HTTP URL and send you a notify if the resource is not reachable.<br />
+# IEABot
+This is a simple bash script that checks an HTTP URL and sends you a notify if the resource is not reachable.<br />
 Note that you need `telegram-cli` installed on your machine.
 
 ====
@@ -47,7 +47,7 @@ Pretty simple!
 ====
 
 #### #3 Configure the script
-Open the [Probegram.sh](https://github.com/gubi/Probegram/blob/master/Probegram.sh) with your favourite text editor and change all variables as you like.<br />
+Open the [Probegram.sh](https://github.com/gubi/Probegram/blob/master/IEABot.sh) with your favourite text editor and change all variables as you like.<br />
 Leave untouched line 20.
 
 ====
@@ -70,7 +70,7 @@ Then edit with vim or nano and add the following line
 #  | ----------- Hour (0 - 23)
 #  ------------- Minute (0 - 59)
 
-*/5 * * * * /home/Probegram/Probegram.sh >> /home/Probegram/offline_status.log 2>&1
+*/5 * * * * /home/IEABot/IEABot.sh >> /home/IEABot/offline_status.log 2>&1
 ```
 The cron above will run every 5 minutes and save the output to a log file if something goes wrong.
 
